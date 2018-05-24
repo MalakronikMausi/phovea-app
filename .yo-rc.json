@@ -1,0 +1,73 @@
+{
+  "generator-phovea": {
+    "type": "app",
+    "app": "Phovea App",
+    "clientOnly": false,
+    "entries": {
+      "app": "./src/index.ts"
+    },
+    "libraries": [
+      "d3",
+      "jquery",
+      "papaparse",
+      "jqueryui",
+      "lineupjs",
+      "font-awesome",
+      "bootstrap",
+      "select2",
+      "moment",
+      "scrollTo",
+      "lru-fast",
+      "selectivity",
+      "lodash",
+      "marked",
+      "file-saver",
+      "datavisyn-scatterplot",
+      "colorbrewer"
+    ],
+    "modules": [
+      "phovea_core",
+      "phovea_d3",
+      "phovea_vis",
+      "phovea_ui",
+      "phovea_importer",
+      "phovea_vis_lineup",
+      "phovea_security_flask",
+      "phovea_clue",
+      "phovea_processing_queue",
+      "tdp_core",
+      "pathfinder_ccle",
+      "pathfinder_graph"
+    ],
+    "libraryAliases": {
+      "d3": "d3/d3",
+      "scrollTo": "jquery.scrollto/jquery.scrollTo.js"
+    },
+    "libraryExternals": [
+      "d3",
+      "jquery",
+      "papaparse",
+      "jqueryui",
+      "lineupjs",
+      "font-awesome",
+      "bootstrap",
+      "bootstrap-sass",
+      "select2",
+      "moment",
+      "scrollTo",
+      "lru-fast",
+      "selectivity",
+      "lodash",
+      "marked",
+      "file-saver",
+      "datavisyn-scatterplot",
+      "colorbrewer"
+    ],
+    "ignores": [],
+    "extensions": [],
+    "name": "phovea_app",
+    "author": "MalakronikMausi",
+    "today": "Thu, 24 May 2018 23:18:19 GMT",
+    "githubAccount": "phovea"
+  }
+}
